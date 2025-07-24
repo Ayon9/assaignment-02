@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florist</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header Section -->
+<header class="bg-white flex justify-between items-center p-4 md:p-6">
+    <div class="logo">
+    <img src="./image/logo.png" alt="Florist Logo" class="h-10">
+    </div>
+    <nav class="hidden md:flex space-x-4">
+    <a href="#" class="text-gray-700">Home</a>
+    <a href="#" class="text-gray-700">About</a>
+    <a href="#" class="text-gray-700">Shop</a>
+    <a href="#" class="text-gray-700">Contact</a>
+    </nav>
+    <button class="md:hidden">☰</button> <!-- Hamburger menu for mobile -->
+</header>
+
+<!-- Hero Section -->
+<section class="hero bg-white text-center p-4 md:p-8">
+    <h1 class="text-4xl md:text-6xl font-bold text-orange-500">ALWAYS FRESH FLOWERS</h1>
+    <p class="text-lg md:text-xl mt-4">Indulge yourself with beauty and fragrance of flowers.</p>
+    <img src="./image/hero-flower.png" alt="Flower Bouquet" class="mt-8 mx-auto max-w-full h-auto">
+</section>
+
+<!-- Product Gallery Section -->
+<section class="products bg-white p-4 md:p-8">
+    <h2 class="text-2xl font-bold mb-6 text-center">Our Plants</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Product Card 1 -->
+    <div class="product-card border p-4">
+        <img src="./image/sample-flower-image.png" alt="Lily Bouquet" class="w-full h-48 object-cover">
+        <h3 class="text-xl mt-4">Lily Bouquet</h3>
+        <p class="text-gray-700">$29.99</p>
+        <button class="mt-4 bg-orange-500 text-white px-4 py-2 w-full">Add to Cart</button>
+    </div>
+    <!-- Product Card 2 -->
+    <div class="product-card border p-4">
+        <img src="./image/sample-flower-image.png" alt="Rose Bouquet" class="w-full h-48 object-cover">
+        <h3 class="text-xl mt-4">Rose Bouquet</h3>
+        <p class="text-gray-700">$39.99</p>
+        <button class="mt-4 bg-orange-500 text-white px-4 py-2 w-full">Add to Cart</button>
+    </div>
+    <!-- Add more product cards as needed (up to 12) -->
+    </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial bg-gradient-to-r from-orange-500 to-brown-500 text-white p-4 md:p-8 text-center">
+    <div class="badge-icon">
+    <img src="./image/trusted-badge.png" alt="Badge" class="mx-auto h-12">
+    </div>
+    <h2 class="text-2xl font-bold mt-4">Flower & Plants Lover</h2>
+    <p class="mt-4 text-lg">Testimonial text here...</p>
+    <img src="./image/flower-store.png" alt="Person with flowers" class="mt-8 mx-auto max-w-xs">
+</section>
+
+<!-- Latest Deals Section -->
+<section class="deals bg-gray-100 p-4 md:p-8">
+    <h2 class="text-2xl font-bold mb-6 text-center">Latest Deals</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Deal Card 1 -->
+    <div class="deal-card bg-white p-4">
+        <img src="./image/deal-bloom.png" alt="Deal 1" class="w-full h-48 object-cover">
+        <p class="mt-4">20% OFF Zahra Plant - Shop Now</p>
+        <button class="mt-4 bg-orange-500 text-white px-4 py-2 w-full">Shop Now</button>
+    </div>
+    <!-- Deal Card 2 -->
+    <div class="deal-card bg-white p-4">
+        <img src="./image/deal-ana.png" alt="Deal 2" class="w-full h-48 object-cover">
+        <p class="mt-4">Another deal...</p>
+        <button class="mt-4 bg-orange-500 text-white px-4 py-2 w-full">Shop Now</button>
+    </div>
+    </div>
+</section>
+
+<!-- Join Section -->
+<section class="join bg-cover bg-center p-4 md:p-8 text-white text-center" style="background-image: url('flower-field.jpg');">
+    <h2 class="text-2xl font-bold">Join the colorful Bunch</h2>
+    <button class="mt-8 bg-orange-500 px-6 py-3 text-xl w-full md:w-auto">Join Now</button>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white p-4 md:p-8 text-center">
+    <img src="./image/logo.png" alt="Florist Logo" class="mx-auto mb-4 h-10">
+    <nav class="mb-4 flex flex-col md:flex-row justify-center">
+    <a href="#" class="text-gray-300 mb-2 md:mb-0 md:mx-2">Home</a>
+    <a href="#" class="text-gray-300 mb-2 md:mb-0 md:mx-2">About</a>
+    <a href="#" class="text-gray-300 mb-2 md:mb-0 md:mx-2">Shop</a>
+    <a href="#" class="text-gray-300 mb-2 md:mb-0 md:mx-2">Contact</a>
+    </nav>
+    <div class="social-icons mb-4 flex flex-col md:flex-row justify-center">
+    <a href="#"><img src="./image/icon-facebook.png" alt="Facebook" class="mb-2 md:mb-0 md:mx-2 h-6"></a>
+    <a href="#"><img src="./image/icon-twitter.png" alt="Twitter" class="mb-2 md:mb-0 md:mx-2 h-6"></a>
+    <a href="#"><img src="./image/icon-twitter.png" alt="Twitter" class="mb-2 md:mb-0 md:mx-2 h-6"></a>
+    </div>
+    <p class="text-sm">Contact info or copyright here</p>
+</footer>
+</body>
+</html>
